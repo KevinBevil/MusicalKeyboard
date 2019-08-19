@@ -1,11 +1,21 @@
 // client-side js
 // run by the browser each time your view template is loaded
 
-const tone1 = new Audio("sounds/c4.wav")
+const c4 = new Audio("sounds/c4.wav");
+const db4 = new Audio("sounds/db4.wav");
+const d4 = new Audio("sounds/d4.wav");
 
 $("#one").on("click", function () {
-   tone1.currentTime = 0;
-   tone1.play();
+   c4.currentTime = 0;
+   c4.play();
+});
+$("#two").on("click", function () {
+   db4.currentTime = 0;
+   db4.play();
+});
+$("#three").on("click", function () {
+   d4.currentTime = 0;
+   d4.play();
 });
 
 
