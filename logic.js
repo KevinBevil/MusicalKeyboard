@@ -13,6 +13,18 @@ const ab4 = new Audio("sounds/ab4.wav");
 const a4 = new Audio("sounds/a4.wav");
 const bb4 = new Audio("sounds/bb4.wav");
 const b4 = new Audio("sounds/b4.wav");
+const c5 = new Audio("sounds/c5.wav");
+const db5 = new Audio("sounds/db5.wav");
+const d5 = new Audio("sounds/d5.wav");
+const eb5 = new Audio("sounds/eb5.wav");
+const e5 = new Audio("sounds/e5.wav");
+const f5 = new Audio("sounds/f5.wav");
+const gb5 = new Audio("sounds/gb5.wav");
+const g5 = new Audio("sounds/g5.wav");
+const ab5 = new Audio("sounds/ab5.wav");
+const a5 = new Audio("sounds/a5.wav");
+const bb5 = new Audio("sounds/bb5.wav");
+const b5 = new Audio("sounds/b5.wav");
 
 $("#one").on("click", function () {
    c4.currentTime = 0;
@@ -61,6 +73,54 @@ $("#eleven").on("click", function () {
 $("#twelve").on("click", function () {
    b4.currentTime = 0;
    b4.play();
+});
+$("#thirteen").on("click", function () {
+   c5.currentTime = 0;
+   c5.play();
+});
+$("#fourteen").on("click", function () {
+   db5.currentTime = 0;
+   db5.play();
+});
+$("#fifteen").on("click", function () {
+   d5.currentTime = 0;
+   d5.play();
+});
+$("#sixteen").on("click", function () {
+   eb5.currentTime = 0;
+   eb5.play();
+});
+$("#seventeen").on("click", function () {
+   e5.currentTime = 0;
+   e5.play();
+});
+$("#eighteen").on("click", function () {
+   f5.currentTime = 0;
+   f5.play();
+});
+$("#nineteen").on("click", function () {
+   gb5.currentTime = 0;
+   gb5.play();
+});
+$("#twenty").on("click", function () {
+   g5.currentTime = 0;
+   g5.play();
+});
+$("#twenty-one").on("click", function () {
+   ab5.currentTime = 0;
+   ab5.play();
+});
+$("#twenty-two").on("click", function () {
+   a5.currentTime = 0;
+   a5.play();
+});
+$("#twenty-three").on("click", function () {
+   bb5.currentTime = 0;
+   bb5.play();
+});
+$("#twenty-four").on("click", function () {
+   b5.currentTime = 0;
+   b5.play();
 });
 
 
