@@ -4,6 +4,15 @@
 const c4 = new Audio("sounds/c4.wav");
 const db4 = new Audio("sounds/db4.wav");
 const d4 = new Audio("sounds/d4.wav");
+const eb4 = new Audio("sounds/eb4.wav");
+const e4 = new Audio("sounds/e4.wav");
+const f4 = new Audio("sounds/f4.wav");
+const gb4 = new Audio("sounds/gb4.wav");
+const g4 = new Audio("sounds/g4.wav");
+const ab4 = new Audio("sounds/ab4.wav");
+const a4 = new Audio("sounds/a4.wav");
+const bb4 = new Audio("sounds/bb4.wav");
+const b4 = new Audio("sounds/b4.wav");
 
 $("#one").on("click", function () {
    c4.currentTime = 0;
@@ -16,6 +25,42 @@ $("#two").on("click", function () {
 $("#three").on("click", function () {
    d4.currentTime = 0;
    d4.play();
+});
+$("#four").on("click", function () {
+   eb4.currentTime = 0;
+   eb4.play();
+});
+$("#five").on("click", function () {
+   e4.currentTime = 0;
+   e4.play();
+});
+$("#six").on("click", function () {
+   f4.currentTime = 0;
+   f4.play();
+});
+$("#seven").on("click", function () {
+   gb4.currentTime = 0;
+   gb4.play();
+});
+$("#eight").on("click", function () {
+   g4.currentTime = 0;
+   g4.play();
+});
+$("#nine").on("click", function () {
+   ab4.currentTime = 0;
+   ab4.play();
+});
+$("#ten").on("click", function () {
+   a4.currentTime = 0;
+   a4.play();
+});
+$("#eleven").on("click", function () {
+   bb4.currentTime = 0;
+   bb4.play();
+});
+$("#twelve").on("click", function () {
+   b4.currentTime = 0;
+   b4.play();
 });
 
 
